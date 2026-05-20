@@ -1,6 +1,3 @@
-# Powerful but minimal zsh configuration
-# Author: Radley E. Sidwell-Lewis
-# GitHub: https://www.github.com/radleylewis/zsh
 #
 # Uses:
 #   Plugins:      fast-syntax-highlighting, zsh-autosuggestions,
