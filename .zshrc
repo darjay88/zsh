@@ -1,3 +1,9 @@
+<<<<<<< HEAD
+=======
+# Powerful but minimal zsh configuration
+# Author: Radley E. Sidwell-Lewis
+# GitHub: https://www.github.com/radleylewis/zsh
+>>>>>>> fc7fa03a794b687676817946d031264f7ed68eb5
 #
 # Uses:
 #   Plugins:      fast-syntax-highlighting, zsh-autosuggestions,
@@ -58,12 +64,36 @@ zstyle ':completion:*' matcher-list 'm:{a-z}={A-Za-z}'  # lowercase input matche
 # Fuzzy finder
 # =========================================================
 
+<<<<<<< HEAD
+=======
+# macOS / Homebrew (Apple Silicon)
+if [[ -f /opt/homebrew/opt/fzf/shell/key-bindings.zsh ]]; then
+  source /opt/homebrew/opt/fzf/shell/key-bindings.zsh
+  source /opt/homebrew/opt/fzf/shell/completion.zsh
+fi
+
+# macOS / Homebrew (Intel)
+if [[ -f /usr/local/opt/fzf/shell/key-bindings.zsh ]]; then
+  source /usr/local/opt/fzf/shell/key-bindings.zsh
+  source /usr/local/opt/fzf/shell/completion.zsh
+fi
+
+>>>>>>> fc7fa03a794b687676817946d031264f7ed68eb5
 # Arch
 if [[ -f /usr/share/fzf/key-bindings.zsh ]]; then
   source /usr/share/fzf/key-bindings.zsh
   source /usr/share/fzf/completion.zsh
 fi
 
+<<<<<<< HEAD
+=======
+# Ubuntu
+if [[ -f /usr/share/doc/fzf/examples/key-bindings.zsh ]]; then
+  source /usr/share/doc/fzf/examples/key-bindings.zsh
+  source /usr/share/doc/fzf/examples/completion.zsh
+fi
+
+>>>>>>> fc7fa03a794b687676817946d031264f7ed68eb5
 # =========================================================
 # Modular Config Files
 # =========================================================

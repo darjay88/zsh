@@ -1,4 +1,8 @@
+<<<<<<< HEAD
  ~/.config/zsh/.zshenv
+=======
+# ~/.config/zsh/.zshenv
+>>>>>>> fc7fa03a794b687676817946d031264f7ed68eb5
 
 # ---------- XDG base directories ----------
 # Centralizes config/cache/data locations
